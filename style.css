@@ -38,11 +38,11 @@ a  {
 
 .header-subsection {
   background-color: #1F2937;
-  padding: 40px;
+  padding: 60px;
 }
 
 .header-subtext {
-  width: 42%;
+  width: 45%;
   display: inline-block;
 }
 .hero-main-text {
@@ -58,14 +58,16 @@ a  {
 }
 
 .logo {
-  height: 410px;
+  height: 360px;
   width: 500px;
   float: right;
   object-fit: cover;
+  margin: 0%;
 }
+
 .img-logo {
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 .signup-button {
@@ -73,5 +75,92 @@ a  {
   color: white;
   padding: 4px 18px;
   border: 0;
+  border-radius: 8px;
+}
+
+.courses-title {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.Courses-offered {
+  display: flex;
+  padding: 0 120px;
+  justify-content: space-between;
+}
+
+.courses {
+  display: flex;
+  column-gap: 20px;
+}
+
+.img-course {
+  height: 180px;
+  width: 250px;
+  flex: 1;
+}
+
+.courses {
+  position: relative;
+}
+
+.img-sub {
+  position: absolute;
+  bottom: 1px;
+  left: 0;
+  right: 0;
+  color: rgb(207, 160, 160);
+  background-color: rgba(0,0,0,0.6);
+  padding: 20px;
+  margin: 0;
+}
+
+.quote {
+  background-color: #E5E7EB;
+  color: #1F2937;
+  font-style: italic;
+  font-size: 36px;
+  padding: 90px;
+  margin-top: 20px;
+}
+
+h2 {
+  float: right;
+  margin: 0;
+}
+
+.end {
+  margin: 160px;
+  background-color: rgb(20, 123, 227);
+  color: #E5E7EB;
+  padding: 20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 8px;
+}
+
+.end-wording {
+  width: 60%;
+}
+
+.action {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 2px;
+}
+
+.action2 {
+  font-size: 18px;
+  margin-top: 0;
+}
+
+.end button {
+  border: 2px solid rgb(244, 241, 241);
+  background-color: rgb(20, 123, 227);
+  padding: 5px 18px;
+  color: #E5E7EB;
   border-radius: 8px;
 }
